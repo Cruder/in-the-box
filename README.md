@@ -35,6 +35,12 @@ The device uses key badges and an RFID reader to identify the person who opens t
 The drive range is 10 cm.
 
 The first step is to register the badges used using the RFID module.
+Copy [this code]() to identify the tags UID, following this fritzing schema:
+
+WIP - Fritzing
+
+(Credit code to https://www.electronique-mixte.fr/microcontrolleurs/rfid-controle-dacces-par-badge-avec-arduino/) 
+
 
 ### Step 2 - Assembly of the components
 Fritzing schemas:
@@ -51,6 +57,8 @@ Copy it to your arduino, then modify this line to indicate the depth of your mai
 ```
 #define MAIL_BOX_DEPTH 500
 ```
+Then add the tags UID to the configuration.
+
 Now you'd like to test your component assembly and configuration before moving them into the mailbox.
 
 WIP - Mails server configuration
