@@ -26,8 +26,24 @@ InTheBox is also able to detect and warn you of suspicious behaviors around your
 
 
 
-### Step 1: Tags initialization
-### Step 2: Assembly of the components
-### Step 3: Mailbox measurement
-### Step 4: Arduino code and component testing
-### Step 5: Fabrication of dummy soil
+### Step 1 - Tags initialization
+### Step 2 - Assembly of the components
+### Step 3 - Mailbox measurement
+### Step 4 - Arduino code and component testing
+TinkerCAD simulation: https://www.tinkercad.com/things/1rgmoFdLwcb
+### Step 5 - Fabrication of dummy soil
+The plan has been calculated for a letterbox with the dimensions 30 x 41 x 30 cm (L x W x H).
+To readjust the plan to the dimensions of your letterbox, make sure that the false floor board (initially 30 x 41 x 1 cm) passes through the door horizontally before assembling.
+![plan cache](https://user-images.githubusercontent.com/17204777/83879310-bc2b0100-a73d-11ea-934b-9e559700a643.png)
+
+### Step 6 - Arrangement of the letter box 
+1. Place the arduino and its components at the bottom of the mailbox. The RFID sensor must be placed on the front or rear lock side. Its location will have an impact on the quality of authentication, and you will need to retrieve mail from this side only. 
+2. Place the dummy soil in the mailbox, slot towards the back door. Be careful not to crush any components with the support foot of the dummy soil.
+3. Fix the FSR sensor in the center of the dummy soil, tab towards the slot so the wires slide beneath. Pass the HC-SR04 sensor through the slot, we will fix it later at the back of the mailbox.
+![Capture d’écran du 2020-06-05 13-12-44](https://user-images.githubusercontent.com/17204777/83879701-5ab76200-a73e-11ea-8a84-c3ef2c3c58fa.png)
+4. Fix the pressure pad on the FSR sensor.
+![Capture d’écran du 2020-06-05 13-13-01](https://user-images.githubusercontent.com/17204777/83879705-5be88f00-a73e-11ea-9e56-46c7001e8394.png)
+5. Place the 30 x 41 x 0.5 cm board on top to make the scale.
+![Capture d’écran du 2020-06-05 13-26-51](https://user-images.githubusercontent.com/17204777/83879708-5c812580-a73e-11ea-9466-3175d8b6dac3.png)
+6. Fix the HC-SR04 sensor at the back of the mailbox, a few centimetres above the dummy soil, on the side where the lock of the front door is located.
+
