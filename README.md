@@ -58,10 +58,17 @@ WIP - Mails server configuration
 ### Step 5 - Fabrication of dummy soil
 The plan has been calculated for a letterbox with the dimensions 30 x 41 x 30 cm (L x W x H).
 To readjust the plan to the dimensions of your letterbox, make sure that the false floor board (initially 30 x 41 x 1 cm) passes through the door horizontally before assembling.
+![supplies](https://user-images.githubusercontent.com/17204777/83896646-c5739800-a754-11ea-96c4-b63c8139791d.png)
 ![plan cache](https://user-images.githubusercontent.com/17204777/83879310-bc2b0100-a73d-11ea-934b-9e559700a643.png)
+
+
 Follow these these assembly instructions:
 
-WIP
+![Capture d’écran du 2020-06-05 17-51-12](https://user-images.githubusercontent.com/17204777/83897781-526b2100-a756-11ea-9c9c-7b5ad8aa1b6d.png)
+![Capture d’écran du 2020-06-05 17-54-19](https://user-images.githubusercontent.com/17204777/83897783-5303b780-a756-11ea-93c5-b1a10d460bc9.png)
+![Capture d’écran du 2020-06-05 17-57-36](https://user-images.githubusercontent.com/17204777/83897786-539c4e00-a756-11ea-85a3-97b1224de0d1.png)
+![Capture d’écran du 2020-06-05 17-58-23](https://user-images.githubusercontent.com/17204777/83897787-5434e480-a756-11ea-9cbd-c7e5d0a56d3e.png)
+
 
 ### Step 6 - Arrangement of the letter box 
 1. Place the arduino and its components at the bottom of the mailbox. The RFID sensor must be placed on the front or rear lock side. Its location will have an impact on the quality of authentication, and you will need to retrieve mail from this side only. 
