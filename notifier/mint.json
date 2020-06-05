@@ -1,0 +1,9 @@
+{
+  "name": "notifier",
+  "source-directories": [
+    "source"
+  ],
+  "test-directories": [
+    "tests"
+  ]
+}
