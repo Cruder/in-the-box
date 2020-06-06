@@ -87,6 +87,7 @@ To readjust the plan to the dimensions of your letterbox, make sure that the fal
 ![supplies](https://user-images.githubusercontent.com/17204777/83896646-c5739800-a754-11ea-96c4-b63c8139791d.png)
 ![plan cache](https://user-images.githubusercontent.com/17204777/83879310-bc2b0100-a73d-11ea-934b-9e559700a643.png)
 
+If you have a 3D printer, you can find [here](https://github.com/Cruder/in-the-box/tree/master/dummy_soil) a model to print yourself.
 
 Follow these these assembly instructions:
 1. Perce a slot in the back centre of the board measuring 30 x 41 x 1 cm, 2 cm wide and 15 cm long. This will allow the FSR sensor wires to disappear under the cover.
