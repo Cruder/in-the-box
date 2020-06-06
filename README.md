@@ -38,7 +38,7 @@ The device uses key badges and an RFID reader to identify the person who opens t
 The drive range is 10 cm.
 
 The first step is to register the badges used using the RFID module.
-Copy [this code]() to identify the tags UID, following this fritzing schema:
+Copy [the code in the RFID/identify.ino](https://github.com/Cruder/in-the-box/blob/master/RFID/identify.ino) to identify the tags UID, following this fritzing schema:
 
 WIP - Fritzing
 
@@ -56,8 +56,8 @@ Measures the inner width and depth.
 
 ### Step 4 - Web server
 #### Requirements
-You must install [Mint Lang](https://www.mint-lang.com).
-If you are using Windows, you will need to install Docker [Docker](https://www.docker.com/get-started).
+- You must install [Mint Lang](https://www.mint-lang.com).
+- If you are using Windows, you will need to install Docker [Docker](https://www.docker.com/get-started).
 
 #### Installation
 - Go to the `notifier` folder
