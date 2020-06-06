@@ -56,10 +56,15 @@ Measures the inner width and depth.
 
 ### Step 4 - Web server
 #### Requirements
-
+You must install [Mint Lang](https://www.mint-lang.com)
 #### Installation
+Go to the `/notifier` folder.
+Run `mint install`
 
 #### Run
+To start the server, run `mint start`
+![image](https://user-images.githubusercontent.com/15196752/83939734-8b030d00-a7df-11ea-8932-78b55a2284bb.png)
+
 
 ### Step 5 - Arduino code and component testing
 The code is available on this TinkerCAD simulation: https://www.tinkercad.com/things/1rgmoFdLwcb
