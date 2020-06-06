@@ -68,7 +68,7 @@ Measures the inner width and depth.
 #### Run
 To start the server, run `mint start`
 
-![image](https://user-images.githubusercontent.com/15196752/83939734-8b030d00-a7df-11ea-8932-78b55a2284bb.png)
+![image](https://user-images.githubusercontent.com/15196752/83941817-ade8ed80-a7ee-11ea-9fd2-adf36f591ac1.png)
 
 
 ### Step 5 - Arduino code and component testing
