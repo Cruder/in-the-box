@@ -54,7 +54,14 @@ Fritzing schemas:
 We need to know the dimensions of the mailbox in order to build the layout and configure the distance sensor.
 Measures the inner width and depth.
 
-### Step 4 - Arduino code and component testing
+### Step 4 - Web server
+#### Requirements
+
+#### Installation
+
+#### Run
+
+### Step 5 - Arduino code and component testing
 The code is available on this TinkerCAD simulation: https://www.tinkercad.com/things/1rgmoFdLwcb
 Copy it to your arduino, then modify this line to indicate the depth of your mailbox in millimetres:
 ```
@@ -66,7 +73,7 @@ Now you'd like to test your component assembly and configuration before moving t
 
 WIP - Mails server configuration
 
-### Step 5 - Fabrication of dummy soil
+### Step 6 - Fabrication of dummy soil
 The plan has been calculated for a letterbox with the dimensions 30 x 41 x 30 cm (L x W x H).
 To readjust the plan to the dimensions of your letterbox, make sure that the false floor board (initially 30 x 41 x 1 cm) passes through the door horizontally before assembling.
 ![supplies](https://user-images.githubusercontent.com/17204777/83896646-c5739800-a754-11ea-96c4-b63c8139791d.png)
@@ -81,7 +88,7 @@ Follow these these assembly instructions:
 ![Capture d’écran du 2020-06-05 17-58-23](https://user-images.githubusercontent.com/17204777/83897787-5434e480-a756-11ea-9cbd-c7e5d0a56d3e.png)
 
 
-### Step 6 - Arrangement of the letter box 
+### Step 7 - Arrangement of the letter box 
 1. Place the arduino and its components at the bottom of the mailbox. The RFID sensor must be placed on the front or rear lock side. Its location will have an impact on the quality of authentication, and you will need to retrieve mail from this side only. 
 2. Place the dummy soil in the mailbox, slot towards the back door. Be careful not to crush any components with the support foot of the dummy soil.
 3. Fix the FSR sensor in the center of the dummy soil, tab towards the slot so the wires slide beneath. Pass the HC-SR04 sensor through the slot, we will fix it later at the back of the mailbox.
