@@ -15,7 +15,7 @@ InTheBox is also able to detect and warn you of suspicious behaviors around your
 - [HC-SR04](https://fr.aliexpress.com/item/32973373842.html?spm=a2g0o.productlist.0.0.40064b01f9nmNX&algo_pvid=e5332c4e-b142-4f0d-abb1-e1f802277021&algo_expid=e5332c4e-b142-4f0d-abb1-e1f802277021-4&btsid=0ab6f83915913513983241719e0c87&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 - [Buzzer](https://fr.aliexpress.com/item/4000012077642.html?src=google&src=google&albch=shopping&acnt=494-037-6276&isdl=y&slnk=&plac=&mtctp=&albbt=Gploogle_7_shopping&aff_atform=google&aff_short_key=UneMJZVf&&albagn=888888&albcp=6459793138&albag=77316928277&trgt=743612850714&crea=fr4000012077642&netw=u&device=c&albpg=743612850714&albpd=fr4000012077642&gclid=CjwKCAjw2uf2BRBpEiwA31VZjwK-2mUgZ_0cJfUReg0XUHlpaVi1ulF6boBbpej_1uCHOifUqY6-5BoC1kEQAvD_BwE&gclsrc=aw.ds)
 - [Pile 6V](https://fr.aliexpress.com/item/32971590400.html?spm=a2g0o.productlist.0.0.664d689bzBxOFz&algo_pvid=ea1f8a58-fca0-4656-8d19-0f8397aef756&algo_expid=ea1f8a58-fca0-4656-8d19-0f8397aef756-16&btsid=0ab6d59515913679965316869e6e9e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
-- [Diodes RGB](https://www.amazon.fr/SODIAL-diode-electroluminescente-tete-ronde/dp/B00F4MGA0I?ref_=fsclp_pl_dp_2)
+- [RGB LED](https://www.amazon.fr/SODIAL-diode-electroluminescente-tete-ronde/dp/B00F4MGA0I?ref_=fsclp_pl_dp_2)
 
 #### Scale
 - 1 board 30 x 41 x 0.5 cm
@@ -56,13 +56,16 @@ Measures the inner width and depth.
 
 ### Step 4 - Web server
 #### Requirements
-You must install [Mint Lang](https://www.mint-lang.com)
+You must install [Mint Lang](https://www.mint-lang.com).
+If you are using Windows, you will need to install Docker [Docker](https://www.docker.com/get-started).
+
 #### Installation
-Go to the `/notifier` folder.
-Run `mint install`
+- Go to the `notifier` folder
+- Run `mint install`
 
 #### Run
 To start the server, run `mint start`
+
 ![image](https://user-images.githubusercontent.com/15196752/83939734-8b030d00-a7df-11ea-8932-78b55a2284bb.png)
 
 
@@ -76,8 +79,6 @@ Then add the tags UID to the configuration.
 
 Now you'd like to test your component assembly and configuration before moving them into the mailbox.
 
-WIP - Mails server configuration
-
 ### Step 6 - Fabrication of dummy soil
 The plan has been calculated for a letterbox with the dimensions 30 x 41 x 30 cm (L x W x H).
 To readjust the plan to the dimensions of your letterbox, make sure that the false floor board (initially 30 x 41 x 1 cm) passes through the door horizontally before assembling.
@@ -86,10 +87,20 @@ To readjust the plan to the dimensions of your letterbox, make sure that the fal
 
 
 Follow these these assembly instructions:
+1. Perce a slot in the back centre of the board measuring 30 x 41 x 1 cm, 2 cm wide and 15 cm long. This will allow the FSR sensor wires to disappear under the cover.
 
 ![Capture d’écran du 2020-06-05 17-51-12](https://user-images.githubusercontent.com/17204777/83897781-526b2100-a756-11ea-9c9c-7b5ad8aa1b6d.png)
+
+2. Turn the board so that you have the slot in front of you. Attach the 2 boards 35 x 41 x 1 cm on each side vertically to the board. 
+
 ![Capture d’écran du 2020-06-05 17-54-19](https://user-images.githubusercontent.com/17204777/83897783-5303b780-a756-11ea-93c5-b1a10d460bc9.png)
+
+3. On the other side, attach the 35 x 28 x 1 cm board vertically to the main board.
+
 ![Capture d’écran du 2020-06-05 17-57-36](https://user-images.githubusercontent.com/17204777/83897786-539c4e00-a756-11ea-85a3-97b1224de0d1.png)
+
+4. In the centre of the main board, 4 cm from the slot, attach the cylinder. Be careful not to let the screw protrude from the other side of the board, we will install the FSR sensor there.
+
 ![Capture d’écran du 2020-06-05 17-58-23](https://user-images.githubusercontent.com/17204777/83897787-5434e480-a756-11ea-9cbd-c7e5d0a56d3e.png)
 
 
