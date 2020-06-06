@@ -40,7 +40,9 @@ The drive range is 10 cm.
 The first step is to register the badges used using the RFID module.
 Copy [the code in the RFID/identify.ino](https://github.com/Cruder/in-the-box/blob/master/RFID/identify.ino) to identify the tags UID, following this fritzing schema:
 
-WIP - Fritzing
+![image](https://user-images.githubusercontent.com/17204777/83940318-e7682b80-a7e3-11ea-9e20-1c85a041f5c6.png)
+![image](https://user-images.githubusercontent.com/17204777/83940369-141c4300-a7e4-11ea-9c52-a023f8b7c608.png)
+
 
 (Credit code to https://www.electronique-mixte.fr/microcontrolleurs/rfid-controle-dacces-par-badge-avec-arduino/) 
 
